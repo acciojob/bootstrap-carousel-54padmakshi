@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+*{
+    
+    background: pink;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+}
+.first-slide{
+    size: 16px;;
+
+}
+.second-slide{
+
+}
+.third-slide{
+
+}
+.fourth-slide{
+
+}
+.fifth-slide{
+
+}

@@ -8,6 +8,85 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!--
+Create a Carousel with five slides using Bootstrap.
+The parent div with id #myCarousel
+there are 5 slides with respective class .first-slide,
+ .second-slide, .third-slide, .fourth-slide, .fifth-slide
+
+Refer Bootstrap carousel documentation
+
+Refer Testcases for better idea   -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+
+	  <div class="first-slide" >
+		<img src="https://thumbs.dreamstime.com/b/flowers-4929984.jpg" class="d-block w-70" alt="Flower pic1">
+	  </div>
+	  <div class="second-slide">
+		<img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509__340.jpg" class="d-block w-70" alt="Flower pic2...">
+	  </div>
+	  <div class="third-slide">
+		<img src="https://img.freepik.com/free-photo/copy-space-roses-flowers_23-2148860032.jpg?w=2000" class="d-block w-70" alt="Flower pic3...">
+	  </div>
+	  <div class="fourth-slide">
+		<img src="https://i.pinimg.com/736x/80/3c/76/803c7685fc8b50d58a16f3bb8e4347a0.jpg" class="d-block w-70" alt="Flower pic4">
+	  </div>
+	  <div class="fifth-slide">
+		<img src="https://st.depositphotos.com/1522993/2984/i/600/depositphotos_29843999-stock-photo-pink-abstract-flower-with-sparkles.jpg" class="d-block w-70" alt="Flower pic5">
+	  </div>
+<!--left arrow and right arrow icons with respective classes glyphicon-chevron-left, glyphicon-chevron-right.
+ .left or .right class for the movement of slide   -->
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="left">glyphicon-chevron-left</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="right">glyphicon-chevron-right</span>
+	</button>
+  </div>     
+   
+
+  <!--
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img src="..." class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+		<img src="..." class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+		<img src="..." class="d-block w-100" alt="...">
+	  </div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Next</span>
+	</button>
+  </div>
+-->
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 
